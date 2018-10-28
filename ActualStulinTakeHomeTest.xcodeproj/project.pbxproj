@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F17BD02185447500217DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BCF2185447500217DE8 /* AppDelegate.swift */; };
+		54F17BD22185447500217DE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BD12185447500217DE8 /* ViewController.swift */; };
+		54F17BD52185447500217DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F17BD32185447500217DE8 /* Main.storyboard */; };
+		54F17BD72185447700217DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F17BD62185447700217DE8 /* Assets.xcassets */; };
+		54F17BDA2185447700217DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F17BD82185447700217DE8 /* LaunchScreen.storyboard */; };
+		54F17BE52185447700217DE8 /* ActualStulinTakeHomeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BE42185447700217DE8 /* ActualStulinTakeHomeTestTests.swift */; };
+		54F17BF02185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BEF2185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F17BE12185447700217DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F17BC42185447400217DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F17BCB2185447400217DE8;
+			remoteInfo = ActualStulinTakeHomeTest;
+		};
+		54F17BEC2185447700217DE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F17BC42185447400217DE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F17BCB2185447400217DE8;
+			remoteInfo = ActualStulinTakeHomeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F17BCC2185447400217DE8 /* ActualStulinTakeHomeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActualStulinTakeHomeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F17BCF2185447500217DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54F17BD12185447500217DE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54F17BD42185447500217DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54F17BD62185447700217DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F17BD92185447700217DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F17BDB2185447700217DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F17BE02185447700217DE8 /* ActualStulinTakeHomeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualStulinTakeHomeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F17BE42185447700217DE8 /* ActualStulinTakeHomeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualStulinTakeHomeTestTests.swift; sourceTree = "<group>"; };
+		54F17BE62185447700217DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F17BEB2185447700217DE8 /* ActualStulinTakeHomeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualStulinTakeHomeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F17BEF2185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualStulinTakeHomeTestUITests.swift; sourceTree = "<group>"; };
+		54F17BF12185447700217DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F17BC92185447400217DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F17BDD2185447700217DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F17BE82185447700217DE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F17BC32185447400217DE8 = {
+			isa = PBXGroup;
+			children = (
+				54F17BCE2185447400217DE8 /* ActualStulinTakeHomeTest */,
+				54F17BE32185447700217DE8 /* ActualStulinTakeHomeTestTests */,
+				54F17BEE2185447700217DE8 /* ActualStulinTakeHomeTestUITests */,
+				54F17BCD2185447400217DE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F17BCD2185447400217DE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F17BCC2185447400217DE8 /* ActualStulinTakeHomeTest.app */,
+				54F17BE02185447700217DE8 /* ActualStulinTakeHomeTestTests.xctest */,
+				54F17BEB2185447700217DE8 /* ActualStulinTakeHomeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F17BCE2185447400217DE8 /* ActualStulinTakeHomeTest */ = {
+			isa = PBXGroup;
+			children = (
+				54F17BCF2185447500217DE8 /* AppDelegate.swift */,
+				54F17BD12185447500217DE8 /* ViewController.swift */,
+				54F17BD32185447500217DE8 /* Main.storyboard */,
+				54F17BD62185447700217DE8 /* Assets.xcassets */,
+				54F17BD82185447700217DE8 /* LaunchScreen.storyboard */,
+				54F17BDB2185447700217DE8 /* Info.plist */,
+			);
+			path = ActualStulinTakeHomeTest;
+			sourceTree = "<group>";
+		};
+		54F17BE32185447700217DE8 /* ActualStulinTakeHomeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F17BE42185447700217DE8 /* ActualStulinTakeHomeTestTests.swift */,
+				54F17BE62185447700217DE8 /* Info.plist */,
+			);
+			path = ActualStulinTakeHomeTestTests;
+			sourceTree = "<group>";
+		};
+		54F17BEE2185447700217DE8 /* ActualStulinTakeHomeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54F17BEF2185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift */,
+				54F17BF12185447700217DE8 /* Info.plist */,
+			);
+			path = ActualStulinTakeHomeTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F17BCB2185447400217DE8 /* ActualStulinTakeHomeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F17BF42185447700217DE8 /* Build configuration list for PBXNativeTarget "ActualStulinTakeHomeTest" */;
+			buildPhases = (
+				54F17BC82185447400217DE8 /* Sources */,
+				54F17BC92185447400217DE8 /* Frameworks */,
+				54F17BCA2185447400217DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActualStulinTakeHomeTest;
+			productName = ActualStulinTakeHomeTest;
+			productReference = 54F17BCC2185447400217DE8 /* ActualStulinTakeHomeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F17BDF2185447700217DE8 /* ActualStulinTakeHomeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F17BF72185447700217DE8 /* Build configuration list for PBXNativeTarget "ActualStulinTakeHomeTestTests" */;
+			buildPhases = (
+				54F17BDC2185447700217DE8 /* Sources */,
+				54F17BDD2185447700217DE8 /* Frameworks */,
+				54F17BDE2185447700217DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F17BE22185447700217DE8 /* PBXTargetDependency */,
+			);
+			name = ActualStulinTakeHomeTestTests;
+			productName = ActualStulinTakeHomeTestTests;
+			productReference = 54F17BE02185447700217DE8 /* ActualStulinTakeHomeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54F17BEA2185447700217DE8 /* ActualStulinTakeHomeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F17BFA2185447700217DE8 /* Build configuration list for PBXNativeTarget "ActualStulinTakeHomeTestUITests" */;
+			buildPhases = (
+				54F17BE72185447700217DE8 /* Sources */,
+				54F17BE82185447700217DE8 /* Frameworks */,
+				54F17BE92185447700217DE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F17BED2185447700217DE8 /* PBXTargetDependency */,
+			);
+			name = ActualStulinTakeHomeTestUITests;
+			productName = ActualStulinTakeHomeTestUITests;
+			productReference = 54F17BEB2185447700217DE8 /* ActualStulinTakeHomeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F17BC42185447400217DE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ws;
+				TargetAttributes = {
+					54F17BCB2185447400217DE8 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					54F17BDF2185447700217DE8 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 54F17BCB2185447400217DE8;
+					};
+					54F17BEA2185447700217DE8 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 54F17BCB2185447400217DE8;
+					};
+				};
+			};
+			buildConfigurationList = 54F17BC72185447400217DE8 /* Build configuration list for PBXProject "ActualStulinTakeHomeTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F17BC32185447400217DE8;
+			productRefGroup = 54F17BCD2185447400217DE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F17BCB2185447400217DE8 /* ActualStulinTakeHomeTest */,
+				54F17BDF2185447700217DE8 /* ActualStulinTakeHomeTestTests */,
+				54F17BEA2185447700217DE8 /* ActualStulinTakeHomeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F17BCA2185447400217DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F17BDA2185447700217DE8 /* LaunchScreen.storyboard in Resources */,
+				54F17BD72185447700217DE8 /* Assets.xcassets in Resources */,
+				54F17BD52185447500217DE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F17BDE2185447700217DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F17BE92185447700217DE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F17BC82185447400217DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F17BD22185447500217DE8 /* ViewController.swift in Sources */,
+				54F17BD02185447500217DE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F17BDC2185447700217DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F17BE52185447700217DE8 /* ActualStulinTakeHomeTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F17BE72185447700217DE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F17BF02185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F17BE22185447700217DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F17BCB2185447400217DE8 /* ActualStulinTakeHomeTest */;
+			targetProxy = 54F17BE12185447700217DE8 /* PBXContainerItemProxy */;
+		};
+		54F17BED2185447700217DE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F17BCB2185447400217DE8 /* ActualStulinTakeHomeTest */;
+			targetProxy = 54F17BEC2185447700217DE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F17BD32185447500217DE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F17BD42185447500217DE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54F17BD82185447700217DE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F17BD92185447700217DE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F17BF22185447700217DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54F17BF32185447700217DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F17BF52185447700217DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ActualStulinTakeHomeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.ActualStulinTakeHomeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54F17BF62185447700217DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ActualStulinTakeHomeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.ActualStulinTakeHomeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54F17BF82185447700217DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ActualStulinTakeHomeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.ActualStulinTakeHomeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualStulinTakeHomeTest.app/ActualStulinTakeHomeTest";
+			};
+			name = Debug;
+		};
+		54F17BF92185447700217DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ActualStulinTakeHomeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.ActualStulinTakeHomeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActualStulinTakeHomeTest.app/ActualStulinTakeHomeTest";
+			};
+			name = Release;
+		};
+		54F17BFB2185447700217DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ActualStulinTakeHomeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.ActualStulinTakeHomeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ActualStulinTakeHomeTest;
+			};
+			name = Debug;
+		};
+		54F17BFC2185447700217DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ActualStulinTakeHomeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = asdf.ActualStulinTakeHomeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ActualStulinTakeHomeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F17BC72185447400217DE8 /* Build configuration list for PBXProject "ActualStulinTakeHomeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F17BF22185447700217DE8 /* Debug */,
+				54F17BF32185447700217DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F17BF42185447700217DE8 /* Build configuration list for PBXNativeTarget "ActualStulinTakeHomeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F17BF52185447700217DE8 /* Debug */,
+				54F17BF62185447700217DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F17BF72185447700217DE8 /* Build configuration list for PBXNativeTarget "ActualStulinTakeHomeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F17BF82185447700217DE8 /* Debug */,
+				54F17BF92185447700217DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F17BFA2185447700217DE8 /* Build configuration list for PBXNativeTarget "ActualStulinTakeHomeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F17BFB2185447700217DE8 /* Debug */,
+				54F17BFC2185447700217DE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F17BC42185447400217DE8 /* Project object */;
+}
