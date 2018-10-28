@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		54F17BD02185447500217DE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BCF2185447500217DE8 /* AppDelegate.swift */; };
-		54F17BD22185447500217DE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BD12185447500217DE8 /* ViewController.swift */; };
 		54F17BD52185447500217DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F17BD32185447500217DE8 /* Main.storyboard */; };
 		54F17BD72185447700217DE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F17BD62185447700217DE8 /* Assets.xcassets */; };
 		54F17BDA2185447700217DE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F17BD82185447700217DE8 /* LaunchScreen.storyboard */; };
 		54F17BE52185447700217DE8 /* ActualStulinTakeHomeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BE42185447700217DE8 /* ActualStulinTakeHomeTestTests.swift */; };
 		54F17BF02185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BEF2185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift */; };
+		54F17C002185484600217DE8 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F17BFF2185484600217DE8 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		54F17BCC2185447400217DE8 /* ActualStulinTakeHomeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActualStulinTakeHomeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F17BCF2185447500217DE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54F17BD12185447500217DE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54F17BD42185447500217DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54F17BD62185447700217DE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F17BD92185447700217DE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		54F17BEB2185447700217DE8 /* ActualStulinTakeHomeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActualStulinTakeHomeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F17BEF2185447700217DE8 /* ActualStulinTakeHomeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualStulinTakeHomeTestUITests.swift; sourceTree = "<group>"; };
 		54F17BF12185447700217DE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F17BFF2185484600217DE8 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				54F17BCF2185447500217DE8 /* AppDelegate.swift */,
-				54F17BD12185447500217DE8 /* ViewController.swift */,
+				54F17BFF2185484600217DE8 /* ConversionViewController.swift */,
 				54F17BD32185447500217DE8 /* Main.storyboard */,
 				54F17BD62185447700217DE8 /* Assets.xcassets */,
 				54F17BD82185447700217DE8 /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F17BD22185447500217DE8 /* ViewController.swift in Sources */,
+				54F17C002185484600217DE8 /* ConversionViewController.swift in Sources */,
 				54F17BD02185447500217DE8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
