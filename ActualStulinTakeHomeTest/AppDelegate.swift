@@ -17,16 +17,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // Create an ItemStore
+       
         let itemStore = ItemStore()
+         /*
         let tabController = window!.rootViewController as! UITabBarController
         let temperatureController = tabController.selectedViewController
         let navController = tabController.viewControllers?.filter{$0 as? UINavigationController != nil}.first!
         let logsController = navController?.childViewControllers.first as! LogView
         logsController.logStore = logStore
+ */
         // Access the ItemsViewController and set its item store
-        //let itemsController_ = window!.rootViewController as! UITabBarController
-        //let itemsController = itemsController_.childViewControllers.first as! ItemsViewController
-        //itemsController.itemStore = itemStore
+        let tabController = window!.rootViewController as! UITabBarController
+        let itemsController = tabController.viewControllers?.filter{$0 is ItemsViewController}.first! as! ItemsViewController
+        itemsController.itemStore = itemStore
         
         return true
     }
