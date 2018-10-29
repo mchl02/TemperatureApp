@@ -8,14 +8,36 @@
 
 import UIKit
 
+import UIKit
+
+class LogCell: UITableViewCell {
+    @IBOutlet var dateLabel: UILabel!
+    @IBOutlet var idLabel: UILabel!
+}
+
 class ItemsViewController: UITableViewController {
     var itemStore: ItemStore!
     
+    var numberFormatter: NumberFormatter {
+        let numberf = NumberFormatter()
+        numberf.formatWidth = 4
+        numberf.minimumIntegerDigits = 4
+        numberf.maximumIntegerDigits = 4
+        numberf.allowsFloats = false
+        return numberf
+    }
+    @IBOutlet var newLogButton: UIBarButtonItem!
+    var dateFormatter: DateFormatter {
+        let df = DateFormatter()
+        df.dateFormat = "MMM d, YYYY 'at' hh:mm:ss at"
+        return df
+    }
+    
     @IBAction func addNewItem(_ sender: UIButton){
-        // Create a new item and add it to the store
-        let newItem = itemStore.createItem()
-        // Figure out where that item is in the array
-        if let index = itemStore.allItems.index(of: newItem) {
+        // Create a new log and add it to the store
+        let newLog = itemStore.createLog(dateFormatter: dateFormatter, numberFormatter: numberFormatter)
+        // Figure out where that log is in the array
+        if let index = itemStore.allLogs.index(of: newLog) {
             let indexPath = IndexPath(row: index, section: 0)
             // Insert this new row into the table
             tableView.insertRows(at: [indexPath], with: .automatic)
@@ -40,16 +62,20 @@ class ItemsViewController: UITableViewController {
         return itemStore.allItems.count
     }
     
-    override func tableView(_ tableView: UITableView,
-                            cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    //override func tableView(_ tableView: UITableView,
+                            //cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Create an instance of UITableViewCell, with default appearance
-        let cell = UITableViewCell(style: .value1, reuseIdentifier: "UITableViewCell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LogCell", for: indexPath) as! LogCell
         // Set the text on the cell with the description of the item
         // that is at the nth index of items, where n = row this cell
         // will appear in on the tableview
-        let item = itemStore.allItems[indexPath.row]
-        cell.textLabel?.text = item.name
-        cell.detailTextLabel?.text = "$\(item.valueInDollars)"
+        //let item = itemStore.allItems[indexPath.row]
+        let log = itemStore.allLogs[indexPath.row]
+
+        cell.textLabel?.text = log.id
+        cell.detailTextLabel?.text = log.dateCreated
+        
         return cell
     }
     

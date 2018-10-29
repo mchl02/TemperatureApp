@@ -118,7 +118,7 @@
                                     <rect key="frame" x="191.5" y="7" width="175.5" height="30"/>
                                     <state key="normal" title="Add"/>
                                     <connections>
-                                        <action selector="addNewItem:" destination="I4R-kb-M4J" eventType="touchUpInside" id="Dji-Y4-jkH"/>
+                                        <action selector="addNewItem:" destination="I4R-kb-M4J" eventType="touchUpInside" id="gGY-dK-EGI"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owf-Bs-tHn">
@@ -171,10 +171,13 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="z7H-lw-4PU"/>
+                    <connections>
+                        <outlet property="newLogButton" destination="Jvx-Vz-DNV" id="ePk-nh-hHc"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h2V-YK-SR3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="81" y="1122"/>
+            <point key="canvasLocation" x="80.5" y="1120.5"/>
         </scene>
     </scenes>
 </document>

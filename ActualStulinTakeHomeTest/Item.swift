@@ -9,6 +9,7 @@
 import UIKit
 
 class Item: NSObject {
+    /*
     var name: String
     var valueInDollars: Int
     var serialNumber: String?
@@ -27,6 +28,7 @@ class Item: NSObject {
     
     convenience init(random: Bool = false) {
         if random {
+     
             let adjectives = ["Fluffy", "Rusty", "Shiny"]
             let nouns = ["Bear", "Spork", "Mac"]
             var idx = arc4random_uniform(UInt32(adjectives.count))
@@ -37,12 +39,26 @@ class Item: NSObject {
             let randomValue = Int(arc4random_uniform(100))
             let randomSerialNumber =
                 UUID().uuidString.components(separatedBy: "-").first!
+ 
+            
+                
             self.init(name: randomName,
                       serialNumber: randomSerialNumber,
                       valueInDollars: randomValue)
         } else {
             self.init(name: "", serialNumber: nil, valueInDollars: 0)
         }
+    }
+ */
+    var dateCreated: String
+    var id: String
+    /*convenience init(date:String) {
+     dateCreated = date
+     
+     }*/
+    init(id: String, date: String) {
+        dateCreated = date
+        self.id = id
     }
     
 }

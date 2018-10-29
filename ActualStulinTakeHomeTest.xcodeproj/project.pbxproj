@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		541E6BA521879E94003E1AA8 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541E6BA421879E94003E1AA8 /* ItemCell.swift */; };
 		547553FF21866E6E00FF0924 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547553FE21866E6E00FF0924 /* ItemsViewController.swift */; };
 		5475540121868D6A00FF0924 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475540021868D6A00FF0924 /* Item.swift */; };
 		5475540321868E7500FF0924 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5475540221868E7500FF0924 /* ItemStore.swift */; };
@@ -38,7 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		541E6BA421879E94003E1AA8 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
 		547553FE21866E6E00FF0924 /* ItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 		5475540021868D6A00FF0924 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		5475540221868E7500FF0924 /* ItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				54F17BD32185447500217DE8 /* Main.storyboard */,
 				5475540021868D6A00FF0924 /* Item.swift */,
 				5475540221868E7500FF0924 /* ItemStore.swift */,
-				541E6BA421879E94003E1AA8 /* ItemCell.swift */,
 				547553FE21866E6E00FF0924 /* ItemsViewController.swift */,
 				54F17BD62185447700217DE8 /* Assets.xcassets */,
 				54F17BD82185447700217DE8 /* LaunchScreen.storyboard */,
@@ -270,7 +267,6 @@
 			files = (
 				5475540121868D6A00FF0924 /* Item.swift in Sources */,
 				54F17C002185484600217DE8 /* ConversionViewController.swift in Sources */,
-				541E6BA521879E94003E1AA8 /* ItemCell.swift in Sources */,
 				547553FF21866E6E00FF0924 /* ItemsViewController.swift in Sources */,
 				5475540321868E7500FF0924 /* ItemStore.swift in Sources */,
 				54F17BD02185447500217DE8 /* AppDelegate.swift in Sources */,
